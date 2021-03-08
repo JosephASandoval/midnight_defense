@@ -9,11 +9,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif)$/i,
         exclude: /(node_modules)/,
         use: [
           {
-            loader: "file-loader",
+            loader: "url-loader",
             options: {
               limit: 8192,
             },
