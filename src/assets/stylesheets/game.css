@@ -1,0 +1,125 @@
+/* canvas */
+
+body {
+  background: black;
+  font-family: "MedievalSharp", cursive;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 600px;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+/* score */
+
+.score {
+  position: fixed;
+  user-select: none;
+  padding: 10px;
+  font-size: 34px;
+  line-height: 40px;
+  min-width: 150px;
+  text-align: center;
+  background: #3457b1;
+  color: black;
+  border-radius: 5px;
+  border: 0px;
+}
+
+/* modal */
+
+.modal {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.start {
+  background: black;
+  max-width: 860px;
+  max-height: 560px;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.start > h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 180px;
+}
+
+.start > p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+
+.start > .instructions {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin: 15px;
+}
+
+.start > button {
+  background-color: rgba(59, 130, 246, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 9999px;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.start > button:hover {
+  background-color: #3457b1;
+}
+
+/* audio */
+
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  user-select: none;
+}
+
+.music > button {
+  padding: 10px 25px;
+  font-size: 22px;
+  line-height: 40px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+  background: #3457b1;
+  color: black;
+  border-radius: 5px;
+  border: 0px;
+  height: 60px;
+}
+
+.music > button:hover {
+  background: black;
+  color: #3457b1;
+}

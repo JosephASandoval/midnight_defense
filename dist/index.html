@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta http-equiv="refresh" content="5" > -->
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../src/assets/images/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Defense</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../src/assets/stylesheets/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../src/assets/stylesheets/game.css"
+    />
+  </head>
+
+  <body>
+    <!-- canvas -->
+    <canvas id="canvas"></canvas>
+
+    <!-- score -->
+    <div class="score"><span>Score: </span><span id="scoreEl">0</span></div>
+
+    <!-- audio -->
+    <div class="music">
+      <audio id="audio">
+        <source
+          src="../src/assets/sounds/bensound-epic.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <button id="playPauseBtn">Play Music &#9654;</button>
+    </div>
+
+    <!-- modal -->
+    <div class="modal" id="modalEl">
+      <div class="start">
+        <h1 id="bigScoreEl">0</h1>
+        <p>Points</p>
+        <button id="startGameBtn">Start Game</button>
+        <p class="instructions">
+          Instructions: Place heros on the field to defend the castle
+        </p>
+      </div>
+    </div>
+
+    <!-- sound effects -->
+    <div>
+      <audio id="goblinAttack">
+        <source src="../src/assets/sounds/goblinAttack.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div>
+      <audio id="wizardAttack">
+        <source src="../src/assets/sounds/wizardAttack.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div>
+      <audio id="soldierAttack">
+        <source
+          src="../src/assets/sounds/soldierAttack.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+    <div>
+      <audio id="dragonAttack">
+        <source src="../src/assets/sounds/dragonAttack.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div>
+      <audio id="gargoyleAttack">
+        <source
+          src="../src/assets/sounds/gargoyleAttack.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+    <div>
+      <audio id="coinSound">
+        <source src="../src/assets/sounds/coinSound.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <script type="application/javascript" src="./bundle.js"></script>
+  </body>
+</html>
