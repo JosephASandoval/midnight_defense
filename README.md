@@ -3,29 +3,27 @@
 [Live Site](https://josephasandoval.github.io/midnight_defense/)
 
 ## Description
-Volta, a Tesla clone, is an ecommerce application that allows users to search for and "purchase" new and used Volta electric vehicles. Users can also publicly share short reviews and comments for all Volta products that can be viewed by other users.
+Midnight Defense, a Tower Defense game, is a grid based game where the player needs to defend their home by placing new characters on the left side of the grid. These friendly characters will have special abilities to defend their home from enemy characters that move from the right side of the grid to the left. The game ends either when an enemy reaches your home (you lose) or all of the enemies have been vanquished (you win).
 
 ## Technology
-React.js, Redux and Ruby on Rails were used to allow my app to store products that users can shop, customize, buy, and leave reviews. Users can login to their profile page containing their purchases, reviews, and profile picuture.
+JavaScript, HTML, Canvas, CSS, Webpack, HTML audio
 
 ## Features
-### Product Listing and Customization (in progress)
-* Products are listed on the homepage
-* Homepage also includes links at the top for each product
-* Drop down menu in right side for addition products
+### Generate a grid-based board and style it (complete)
+* Have an intro screen with play start option and instructions
+* Board renders upon player start
+* Have pixel art for board styling
 
-### Shopping Cart (in progress)
-* Logged in users can add items to their shopping cart
-* Logged in users can remove items from their shopping cart
-* Logged in users can update the number of items in their shopping cart
-* Number of items is displayed in on shopping cart
+### Allow friendly character placement on the board (complete)
+* Player can place friendly characters on the board
+* Have pixel art for friendly character styling
 
-### Reviews (in progress)
-* Logged in users can create comments on products they purchased
-* Users can view other users' comments on products
-* Logged in users can edit their own comments on products
+### Allow enemy movement from the right side of the board (complete)
+* Enemy characters come from the right side of the board
+* Have pixel art for enemy character styling
 
-### User Profile (in progress)
-* Users can upload a profile picture
-* Users can see their purchase history
-* Users can see an index of all their published comments
+### Allow characters to attack and destroy opposing characters (in progress)
+* Characters can attack and destroy opposing characters
+* The top bar displays player's score and resources to enable friendly character placement
+* Player has option to turn on and off music
+* Overall clean and well styled
