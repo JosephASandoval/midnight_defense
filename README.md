@@ -3,7 +3,7 @@
 [Live Site](https://josephasandoval.github.io/midnight_defense/)
 
 ## Description
-Midnight Defense, a Tower Defense game, is a grid based game where the player needs to defend their home by placing new characters on the left side of the grid. These friendly characters will have special abilities to defend their home from enemy characters that move from the right side of the grid to the left. The game ends either when an enemy reaches your home (you lose) or all of the enemies have been vanquished (you win).
+Midnight Defense, a Tower Defense game, is a grid-based game where the player needs to defend their home by placing new characters on the left side of the grid. These friendly characters will have special abilities to defend their home from enemy characters that move from the right side of the grid to the left. The game ends either when an enemy reaches your home (you lose) or all of the enemies have been vanquished (you win).
 
 ## Technology
 JavaScript, HTML, Canvas, CSS, Webpack, HTML audio
