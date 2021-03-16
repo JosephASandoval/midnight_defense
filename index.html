@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- allow linkedin page to see img -->
+    <meta property="og:title" content="Midnight Defense" />
+    <meta property="og:image" content="./dist/midnight_linkedin.png" />
+    <meta
+      property="og:description"
+      content="Midnight Defense, a Tower Defense game, is a grid based game where the player needs to defend their home by placing new characters on the left side of the grid. These friendly characters will have special abilities to defend their home from enemy characters that move from the right side of the grid to the left. The game ends either when an enemy reaches your home (you lose) or all of the enemies have been vanquished (you win)."
+    />
+    <meta
+      property="og:url"
+      content="https://josephasandoval.github.io/midnight_defense/"
+    />
+
     <!-- <meta http-equiv="refresh" content="5" > -->
     <meta charset="UTF-8" />
     <link rel="icon" href="./src/assets/images/favicon.ico" />
@@ -34,10 +46,7 @@
     <!-- audio -->
     <div class="music">
       <audio id="audio">
-        <source
-          src="./src/assets/sounds/bensound-epic.mp3"
-          type="audio/mpeg"
-        />
+        <source src="./src/assets/sounds/bensound-epic.mp3" type="audio/mpeg" />
       </audio>
       <button id="playPauseBtn">Play Music &#9654;</button>
     </div>
@@ -67,10 +76,7 @@
     </div>
     <div>
       <audio id="soldierAttack">
-        <source
-          src="./src/assets/sounds/soldierAttack.mp3"
-          type="audio/mpeg"
-        />
+        <source src="./src/assets/sounds/soldierAttack.mp3" type="audio/mpeg" />
       </audio>
     </div>
     <div>
