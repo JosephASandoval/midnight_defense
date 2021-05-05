@@ -2,7 +2,7 @@
 
 # Midnight Defense
 
-<img src="https://github.com/JosephASandoval/midnight_defense/dist/midnight_demo.gif" alt="demo" width="700" />
+<img src="https://github.com/JosephASandoval/midnight_defense/dist/midnight_demo.gif" alt="demo" width="600" />
 
 ## Description
 Midnight Defense, a Tower Defense game, is a grid-based game where the player needs to defend their home by placing new characters on the left side of the grid. These friendly characters will have special abilities to defend their home from enemy characters that move from the right side of the grid to the left. The game ends either when an enemy reaches your home (you lose) or all of the enemies have been vanquished (you win).
