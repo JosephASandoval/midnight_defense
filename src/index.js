@@ -189,3 +189,4 @@ function playPause() {
 playPauseBtn.addEventListener("click", function () {
   playPause();
 });
+
