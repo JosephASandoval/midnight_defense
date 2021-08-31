@@ -15,4 +15,3 @@ export function handleScore() {
     globals.gameOver = true;
   }
 }
-

@@ -5,4 +5,3 @@ export function handleGrid() {
     grid[i].draw();
   }
 }
-

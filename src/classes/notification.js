@@ -27,4 +27,3 @@ export default class Notification {
     c.globalAlpha = 1;
   }
 }
-

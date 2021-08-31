@@ -48,23 +48,23 @@ table {
 }
 
 button {
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    overflow: visible;
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
 
-    background: transparent;
+	background: transparent;
 
-    color: inherit;
-    font: inherit;
+	color: inherit;
+	font: inherit;
 
-    line-height: normal;
+	line-height: normal;
 
-    -webkit-font-smoothing: inherit;
-    -moz-osx-font-smoothing: inherit;
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
 
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 button:focus {
