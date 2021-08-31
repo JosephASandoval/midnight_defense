@@ -97,3 +97,4 @@ export function selectHero() {
   );
   c.drawImage(princess, 72 * 3, 0, 72, 72, 220, 0, 72 * 1.5, 72 * 1.5);
 }
+

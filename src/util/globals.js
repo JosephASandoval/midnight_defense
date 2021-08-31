@@ -7,3 +7,4 @@ module.exports.frame = 0;
 module.exports.winningScore = 100;
 module.exports.villainsInterval = 500;
 module.exports.selectedHero = 1;
+
